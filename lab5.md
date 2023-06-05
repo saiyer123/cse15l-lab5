@@ -13,3 +13,6 @@ Detail the failure-inducing input and context. That might mean any or all of the
 
 The commands I am running are `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java.`
 and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests.java`
+These are the only 2 commands I ran, and there was nothing before. The main things I noticed by the error message were these two lines
+`java.lang.IllegalArgumentException: Could not find class [ArrayTests.java]` and `Caused by: java.lang.ClassNotFoundException: ArrayTests.java`.
+Here is a screenshot of my code ![Image](cse15l-lab5-code.png)
