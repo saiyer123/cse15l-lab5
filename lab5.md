@@ -11,5 +11,5 @@ Here is the screenshot.
 
 Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
 
-The commands I am running are javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java. 
-and java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests.java
+The commands I am running are `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java.`
+and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests.java`
