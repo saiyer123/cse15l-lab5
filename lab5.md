@@ -1,3 +1,4 @@
+# Lab 5
 # Part 1 - Debugging Scenario
 ![Image](cse15l-lab5-thread.png)
 
